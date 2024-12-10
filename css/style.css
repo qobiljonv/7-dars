@@ -1,0 +1,151 @@
+@font-face {
+  font-display: swap;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/epilogue-v17-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/epilogue-v17-latin-700.woff2") format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+body {
+  background-color: rgba(250, 250, 250, 1);
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  font-weight: 500;
+  color: #686868;
+}
+.container {
+  width: 100%;
+  max-width: 1204px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.header {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.header-container {
+  width: 100%;
+  max-width: 1420px;
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: 62.5px;
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.sitenav-link {
+  font-weight: 400;
+  color: #686868;
+}
+
+.sitenav-link:hover {
+  color: rgba(21, 21, 21, 1);
+}
+
+.header-links {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.header-link {
+  padding: 13px 23px;
+  border: 1.5px solid transparent;
+  border-radius: 14px;
+  color: #686868;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  transition: 0.3s;
+}
+.header-link:hover {
+  background-color: #686868;
+  color: #fafafa;
+}
+.active {
+  border-color: #686868;
+}
+
+.hero {
+  padding-top: 46px;
+  padding-bottom: 130px;
+}
+.hero-container {
+  display: flex;
+  gap: 125px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+.hero-info {
+  margin-bottom: auto;
+}
+.hero-title {
+  line-height: 80px;
+  font-size: 80px;
+  letter-spacing: 1.11px;
+  color: rgba(21, 21, 21, 1);
+  margin-bottom: 48px;
+  width: 540px;
+
+  height: 161px;
+}
+.hero-description {
+  margin-bottom: 51px;
+  width: 445px;
+  height: 84px;
+}
+.hero-button {
+  margin-bottom: 108px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  padding: 15px 28px 13px 31px;
+  background-color: rgba(21, 21, 21, 1);
+  color: #fafafa;
+}
+.hero-button:hover {
+  background-color: transparent;
+  color: rgba(21, 21, 21, 1);
+  border-color: rgba(21, 21, 21, 1);
+}
+.hero-sponsors {
+  display: flex;
+  gap: 40.5px;
+}
